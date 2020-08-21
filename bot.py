@@ -70,3 +70,5 @@ async def logout(ctx):
     await bot.logout() #перезагружаем бота
 
 token = os.environ.get('BOT_TOKEN')
+
+bot,run(str(token))
